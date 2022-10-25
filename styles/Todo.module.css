@@ -1,0 +1,59 @@
+.todoApp {
+  /* color: white; */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.textField input {
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+
+.addTodo {
+  display: flex;
+  width: 100%;
+}
+
+.addTodoInput {
+  margin-bottom: 3rem;
+}
+
+.addTodoInput,
+.addTodoInput > div {
+  width: 100%;
+}
+
+.addDisabledIcon,
+.addIcon {
+  margin-top: 1.25rem;
+}
+
+.addIcon,
+.removeIcon,
+.completeIcon {
+  cursor: pointer;
+}
+
+.addIcon:hover,
+.removeIcon:hover,
+.completeIcon:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.stateCell {
+  width: 7rem;
+}
+
+.title {
+  font-size: large;
+}
